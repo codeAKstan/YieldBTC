@@ -83,8 +83,8 @@ BTC Yield is the first AI-powered Bitcoin yield farming platform built natively 
 
 \`\`\`bash
 # Clone the repository
-git clone https://github.com/your-username/btc-yield-platform.git
-cd btc-yield-platform
+git clone https://github.com/codeAKstan/YieldBTC.git
+cd YieldBTC
 
 # Install dependencies
 npm install
@@ -98,7 +98,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 ### Project Structure
 
 \`\`\`
-btc-yield-platform/
+YieldBTC/
 ├── app/                    # Next.js app directory
 │   ├── page.js            # Landing page
 │   ├── dashboard/         # Dashboard pages
