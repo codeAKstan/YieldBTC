@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Wallet, Brain, TrendingUp } from "lucide-react"
+import Link from "next/link"
+
 
 const steps = [
   {
@@ -60,6 +62,7 @@ export default function HowItWorks() {
         </div>
 
         <div className="text-center">
+          <Link href="/dashboard">
           <Button
             size="lg"
             className="bg-gradient-to-r from-orange-500 to-blue-600 hover:from-orange-600 hover:to-blue-700 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
@@ -67,6 +70,7 @@ export default function HowItWorks() {
             Get Started Now
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
+          </Link>
         </div>
       </div>
     </section>
